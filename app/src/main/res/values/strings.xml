@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">GoShare</string>
+    <string name="title_activity_map">Mapbox GoShare</string>
+
+    // TODO: FILL IN YOUR OWN MAPBOX ACCESS TOKEN
+    <string name="mapbox_access_token" translatable="false"></string>
+
+    <!--Nav drawer-->
+    <string name="navigation_drawer_description">Micro-mobility with Mapbox\nhttps://github.com/mapbox/Micro-Mobility-Demo</string>
+    <string name="navigation_drawer_account">Account</string>
+    <string name="navigation_drawer_account_toast">Show account info</string>
+    <string name="navigation_drawer_payment">Payment</string>
+    <string name="navigation_drawer_payment_toast">Show payment info</string>
+    <string name="navigation_drawer_help">Help</string>
+    <string name="navigation_drawer_help_toast">Show helpful info</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Menu items-->
+    <string name="toggle_lock_stations">Toggle moped garages</string>
+    <string name="toggle_vehicle_type">Toggle vehicle type</string>
+    <string name="places_search">Search for places</string>
+    <string name="map_style_toggle">Cycle map styles</string>
+    <string name="heatmap_toggle">Toggle heatmap</string>
+    <string name="cluster_toggle">Toggle clusters</string>
+    <string name="camera_toggle">Open camera</string>
+
+    <string name="travel_time_unknown">Travel time unknown</string>
+    <string name="address_unknown">Address unknown</string>
+
+    <!--Connectivity message-->
+    <string name="no_internet_message">Route drawing not possible because there\'s no internet connection!</string>
+    <string name="no_connectivity">You might have issues viewing the map because your device isn\'t connected to the internet.</string>
+
+    <!--Directions API messages-->
+    <string name="failure_to_retrieve">Failure to retrieve the navigation route!</string>
+    <string name="select_destination_before_starting_nav">Select a destination first!</string>
+    <string name="no_route">No route available!</string>
+
+    <!--Cardview text-->
+    <string name="scan_bike_qr_code">Scan</string>
+    <string name="walking_miles"> %1$s miles</string>
+    <string name="walking_minutes">%1$s minutes,</string>
+    <string name="moped_count">%1$s mopeds in this garage</string>
+    <string name="one_moped">%1$s moped in this garage</string>
+    <string name="no_routes_found">No routes found</string>
+    <string name="set_right_token">No routes found, make sure you set the right user and access token.</string>
+
+    <!--Basic user location permission toasts-->
+    <string name="user_location_permission_explanation">This app needs location permissions in order to show its functionality.</string>
+    <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
+
+    <!--Turn by turn navigation fragment-->
+    <string name="navigation_finished">Navigation finished!</string>
+
+    <!--Data loading-->
+    <string name="cannot_get_list">Can\'t get list of %1$s</string>
+
+    <!-- Random -->
+    <string name="add_camera_code">Add your own code to open camera preview</string>
+
+</resources>

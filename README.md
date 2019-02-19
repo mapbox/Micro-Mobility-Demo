@@ -12,7 +12,7 @@ External repository housing the open source code for our Micro-mobility app demo
 
 - Go to the `R.strings.xml` file in Android Studio (`app/src/main/res/values/strings.xml`) and paste your access token in the `mapbox_access_token` String resource.
 
-`<string name="mapbox_access_token" translatable="false">PASTE_YOUR_MAPBOX_TOKEN_HERE</string>`
+```<string name="mapbox_access_token" translatable="false">PASTE_YOUR_MAPBOX_TOKEN_HERE</string>```
 
 - At this point, the project should compile in Android Studio and open on your real or emulated device.
 
