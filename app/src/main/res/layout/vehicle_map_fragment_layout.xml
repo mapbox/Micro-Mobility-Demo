@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/single_vehicle_distance_and_time_info_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardElevation="4dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/cardview_constraint_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/vechicle_type_imageview"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/scooter_icon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@id/cardview_constraint_layout"
+                app:layout_constraintTop_toTopOf="@id/cardview_constraint_layout" />
+
+
+            <TextView
+                android:id="@+id/vehicle_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/vechicle_type_imageview"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="#58" />
+
+            <TextView
+                android:id="@+id/vehicle_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="@+id/vehicle_number"
+                app:layout_constraintTop_toBottomOf="@id/vehicle_number"
+                tools:text="72 Townsend st, San Francisco" />
+
+
+            <ImageView
+                android:id="@+id/walking_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_directions_walk"
+                app:layout_constraintStart_toStartOf="@+id/vehicle_address"
+                app:layout_constraintTop_toBottomOf="@+id/vehicle_address" />
+
+            <TextView
+                android:id="@+id/walking_time_to_vechicle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/walking_icon"
+                app:layout_constraintTop_toTopOf="@+id/walking_icon"
+                tools:text="20 min," />
+
+            <TextView
+                android:id="@+id/mileage_walking_distance_to_vechicle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/walking_time_to_vechicle"
+                app:layout_constraintTop_toTopOf="@+id/walking_time_to_vechicle"
+                tools:text=".6 mi" />
+
+            <Button
+                android:id="@+id/start_turn_by_turn_navigate_to_bike_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:elevation="6dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorAccent_green"
+                android:text="Rent"
+                android:textAllCaps="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/single_moped_garage_location_info_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/moped_lock_location_cardview_constraint_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/moped_lock_location_vechicle_type_imageview"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/moped_icon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@id/moped_lock_location_cardview_constraint_layout"
+                app:layout_constraintTop_toTopOf="@id/moped_lock_location_cardview_constraint_layout" />
+
+            <TextView
+                android:id="@+id/number_of_mopeds_in_garage_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/moped_lock_location_vechicle_type_imageview"
+                app:layout_constraintStart_toEndOf="@+id/moped_lock_location_vechicle_type_imageview"
+                app:layout_constraintTop_toTopOf="@+id/moped_lock_location_vechicle_type_imageview"
+                tools:text="5 mopeds at this location" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/main_mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraTargetLat="37.788440000"
+        mapbox:mapbox_cameraTargetLng="-122.399855"
+        mapbox:mapbox_cameraZoom="12"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/device_location_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:background="@color/mapboxBlueDark"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/ic_my_location_white_24dp" />
+</FrameLayout>

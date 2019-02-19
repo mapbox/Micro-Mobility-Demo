@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/toggle_moped_garage_locations_visibility"
+        android:orderInCategory="100"
+        android:title="@string/toggle_lock_stations"
+        android:icon="@drawable/ic_lock_white_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/toggle_vehicle_visibility"
+        android:orderInCategory="100"
+        android:title="@string/toggle_vehicle_type"
+        android:icon="@drawable/ic_layers_black_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        android:title="@string/places_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/map_style_toggle"
+        android:orderInCategory="100"
+        android:title="@string/map_style_toggle"
+        android:icon="@drawable/ic_style_white_24dp"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/heat_map_toggle"
+        android:orderInCategory="100"
+        android:title="@string/heatmap_toggle"
+        android:icon="@drawable/ic_flame_white_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/open_camera"
+        android:orderInCategory="100"
+        android:title="@string/camera_toggle"
+        android:icon="@drawable/ic_camera_alt"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/cluster_toggle"
+        android:orderInCategory="100"
+        android:title="@string/cluster_toggle"
+        android:icon="@drawable/ic_cluster_black_24dp"
+        app:showAsAction="always" />
+
+
+</menu>
