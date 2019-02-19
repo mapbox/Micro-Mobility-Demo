@@ -2,7 +2,8 @@
     <string name="app_name">GoShare</string>
     <string name="title_activity_map">Mapbox GoShare</string>
 
-
+    // TODO: FILL IN YOUR OWN MAPBOX ACCESS TOKEN
+    <string name="mapbox_access_token" translatable="false"></string>
 
     <!--Nav drawer-->
     <string name="navigation_drawer_description">Micro-mobility with Mapbox\nhttps://github.com/mapbox/Micro-Mobility-Demo</string>
