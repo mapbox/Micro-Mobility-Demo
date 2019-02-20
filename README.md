@@ -3,7 +3,7 @@
 
 # Micro-Mobility-Demo
 
-This repo contains Mapbox's Android micro-mobility demo app, which goes hand-in-hand with the written guide: https://blog.mapbox.com/build-the-ultimate-micro-mobility-app-af71f92b858f
+This repo contains Mapbox's Android micro-mobility demo app, which goes hand-in-hand with the written guide: [https://blog.mapbox.com/build-the-ultimate-micro-mobility-app-af71f92b858f](https://www.mapbox.com/map-design/guide-to-micro-mobility/?utm_campaign=micro-mobility&utm_medium=referral&utm_source=github)
 
 
 ### Building the app on your device
