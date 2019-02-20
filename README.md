@@ -1,3 +1,6 @@
+![image_preview 1](https://user-images.githubusercontent.com/4394910/53114566-e7fa8700-34f8-11e9-91a6-2e60e39501db.gif)
+
+
 # Micro-Mobility-Demo
 
 
@@ -29,3 +32,10 @@ External repository housing the open source code for our Micro-mobility app demo
 
 Pull requests and issue reporting are both welcomed! Please see [the contributing guide](https://github.com/mapbox/Micro-Mobility-Demo/blob/master/CONTRIBUTING.md) for more information about contributing to this project.
 
+
+### Inside the app
+
+<img src="https://user-images.githubusercontent.com/4394910/53115066-1331a600-34fa-11e9-93d8-c7825849bf2a.gif" width="325"/> <img src="https://user-images.githubusercontent.com/4394910/53114927-cea60a80-34f9-11e9-9d5e-cd7156593a77.gif" width="325"/> 
+
+<img src="https://user-images.githubusercontent.com/4394910/53114928-cea60a80-34f9-11e9-94c6-01af0a9c1e32.gif" width="325"/> <img src="https://user-images.githubusercontent.com/4394910/53114930-cea60a80-34f9-11e9-99d7-6504d6a464bb.gif" width="325"/> 
+<img src="https://user-images.githubusercontent.com/4394910/53114932-cf3ea100-34f9-11e9-95d9-3e6755703233.gif" width="325"/> 
