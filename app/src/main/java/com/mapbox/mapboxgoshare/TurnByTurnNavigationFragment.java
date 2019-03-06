@@ -99,7 +99,6 @@ public class TurnByTurnNavigationFragment extends android.app.Fragment
           NavigationViewOptions options = NavigationViewOptions.builder()
             .navigationListener(TurnByTurnNavigationFragment.this)
             .directionsRoute(response.body().routes().get(0))
-            .directionsProfile(PROFILE_WALKING)
             .shouldSimulateRoute(true)
               .build();
           navigationView.startNavigation(options);
