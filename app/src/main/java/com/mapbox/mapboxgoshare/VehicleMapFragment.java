@@ -331,7 +331,6 @@ public class VehicleMapFragment extends Fragment implements
           public void onResponse(Call<DirectionsResponse> call, Response<DirectionsResponse> response) {
             NavigationLauncherOptions options = NavigationLauncherOptions.builder()
               .directionsRoute(response.body().routes().get(0))
-              .directionsProfile(PROFILE_WALKING)
               .shouldSimulateRoute(true)
               .build();
             view.findViewById(R.id.main_mapView).setVisibility(View.INVISIBLE);

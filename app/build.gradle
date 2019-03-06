@@ -36,7 +36,7 @@ dependencies {
     // Mapbox drop-in navigation UI library.
     // Adding this dependency automatically includes both the Mapbox Maps SDK for Android
     // and the Mapbox Navigation SDK for Android, which is why neither are listed in this file.
-    implementation 'com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.30.0'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.31.0'
 
     // Mapbox Services SDK dependency to retrieve routes from the Mapbox Directions API
     implementation 'com.mapbox.mapboxsdk:mapbox-sdk-services:4.5.0'
