@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/single_vehicle_distance_and_time_info_cardview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
 
-        <android.support.constraint.ConstraintLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/cardview_constraint_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -99,11 +99,11 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-        </android.support.constraint.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/single_moped_garage_location_info_cardview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -118,7 +118,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
 
-        <android.support.constraint.ConstraintLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/moped_lock_location_cardview_constraint_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -148,8 +148,8 @@
                 app:layout_constraintTop_toTopOf="@+id/moped_lock_location_vechicle_type_imageview"
                 tools:text="5 mopeds at this location" />
 
-        </android.support.constraint.ConstraintLayout>
-    </android.support.v7.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
 
     <com.mapbox.mapboxsdk.maps.MapView
         android:id="@+id/main_mapView"
@@ -159,7 +159,7 @@
         mapbox:mapbox_cameraTargetLng="-122.399855"
         mapbox:mapbox_cameraZoom="12"/>
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/device_location_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

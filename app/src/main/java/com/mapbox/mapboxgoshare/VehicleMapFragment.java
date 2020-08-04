@@ -14,9 +14,6 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -26,6 +23,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.FragmentActivity;
 
 import com.mapbox.android.core.permissions.PermissionsListener;
 import com.mapbox.android.core.permissions.PermissionsManager;
@@ -81,11 +82,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-
-import static android.support.v4.content.ContextCompat.getDrawable;
+import static androidx.appcompat.content.res.AppCompatResources.getDrawable;
 import static com.mapbox.api.directions.v5.DirectionsCriteria.IMPERIAL;
 import static com.mapbox.api.directions.v5.DirectionsCriteria.PROFILE_WALKING;
 import static com.mapbox.mapboxgoshare.util.IconIdConstants.INDIVIDUAL_BIKE_ICON_IMAGE_ID;
@@ -152,6 +149,9 @@ import static com.mapbox.mapboxsdk.style.layers.PropertyFactory.textField;
 import static com.mapbox.mapboxsdk.style.layers.PropertyFactory.textIgnorePlacement;
 import static com.mapbox.mapboxsdk.style.layers.PropertyFactory.textSize;
 import static com.mapbox.mapboxsdk.style.layers.PropertyFactory.visibility;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 /**
  * This fragment uses the Mapbox Maps SDK for Android to show a map and various data. Scooters, bikes, moped

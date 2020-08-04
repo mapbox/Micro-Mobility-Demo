@@ -68,3 +68,8 @@ build/
 .externalNativeBuild
 */src/main/res/values/dev-config.xml
 *.ser
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/jarRepositories.xml
+.idea/codeStyles/Project.xml
