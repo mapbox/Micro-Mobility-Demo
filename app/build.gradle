@@ -37,22 +37,18 @@ dependencies {
     // Mapbox drop-in navigation UI library.
     // Adding this dependency automatically includes both the Mapbox Maps SDK for Android
     // and the Mapbox Navigation SDK for Android, which is why neither are listed in this file.
-    implementation 'com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.34.0'
     implementation 'com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.42.6'
 
     // Mapbox Turf library dependency to use distance calculation methods
-    implementation 'com.mapbox.mapboxsdk:mapbox-sdk-turf:4.5.0'
     implementation 'com.mapbox.mapboxsdk:mapbox-sdk-turf:5.4.1'
 
     // Mapbox Buildings plugin for showing and customizing 3D building extrusions
     implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-building-v7:0.5.0'
 
     // Mapbox Places Plugin to make geocoding requests
-    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-places-v7:0.8.0'
     implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-places-v9:0.12.0'
 
     // Mapbox Localization Plugin to adjust map text to match the device's set language
-    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v7:0.9.0'
     implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v9:0.12.0'
 
 }
